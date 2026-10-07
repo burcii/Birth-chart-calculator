@@ -1,0 +1,33 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Birth Chart Calculator</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1>Birth Chart Calculator</h1>
+
+    <form id="birthForm">
+      <label for="birthDate">Birth date</label>
+      <input type="date" id="birthDate" required />
+
+      <label for="birthTime">Birth time</label>
+      <input type="time" id="birthTime" required />
+
+      <label for="birthPlace">Birth place</label>
+      <input type="text" id="birthPlace" required />
+
+      <button type="submit">Calculate Birth Chart</button>
+    </form>
+
+    <div id="result"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
